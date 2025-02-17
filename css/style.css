@@ -22,7 +22,7 @@ nav:focus{ text-decoration: underline; }
 
 /* Step 3: Write selector/rule property to style all elements when in focus*/
 *:focus{
-     border-style: 2px, solid black;
+     border-style: 2px solid black;
 }
 
 
@@ -42,6 +42,7 @@ first div in the grid  and place it in the grid. */
      background-attachment: fixed;
      background-position: center;
      background-size: cover;
+     background-repeat: no-repeat;
 }
 
 
